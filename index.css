@@ -1,0 +1,86 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 0.2rem solid;
+  border-radius: 0.3rem;
+  border-color: #f2f2f2;
+  margin: 0.3rem;
+
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+.tasks-body {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+#formTask {
+  margin: 1rem;
+  align-self: flex-start;
+}
+#tasks {
+  flex-grow: 2;
+  align-self: flex-start;
+}
+button {
+  border-radius: 0.5rem;
+  font-weight: 400;
+  text-align: center;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+}
+.btn-delete {
+  background-color: rgba(255, 0, 0, 0.7);
+  color: white;
+  line-height: 1.5;
+  align-self: flex-end;
+}
+.btn-save {
+  width: 100%;
+  background-color: black;
+  color: white;
+  line-height: 2;
+}
+.form-group {
+  width: 100%;
+}
+
+#title,
+#description {
+  line-height: 2.5;
+  margin-bottom: 0.3rem;
+  padding: 0.375rem 1rem;
+  width: auto;
+  background-color: #f2f2f2;
+  border-radius: 0.3rem;
+  border: 0px solid;
+}
+p {
+  font-size: 1.3rem;
+}
+nav {
+  background-color: #f2f2f2;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 2rem;
+}
+.nav-task {
+  color: black;
+  text-decoration: none;
+  font-size: 2rem;
+}

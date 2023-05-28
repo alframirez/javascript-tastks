@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Javascript Task App</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <nav>
+      <div class="container">
+        <a href="#" class="nav-task">Task Javascript App</a>
+      </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <div class="container">
+      <div class="card">
+        <form class="" id="formTask">
+          <div>
+            <input type="text" id="title" placeholder="Add a TODO" />
+          </div>
+          <div>
+            <textarea
+              id="description"
+              rows="7"
+              cols="21"
+              placeholder="Add a Description"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn-save">Save</button>
+        </form>
+      </div>
+      <div id="widget"></div>
+
+      <script src="https://bin.bnbstatic.com/static/js/ocbs/binance-fiat-widget.js"></script>
+
+      <div id="tasks"></div>
+    </div>
+    <!-- SCRIPTS -->
+    <script src="app.js"></script>
+  </body>
+</html>
